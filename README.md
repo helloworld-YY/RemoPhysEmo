@@ -1,12 +1,12 @@
-# PhysEmo: A multimodal emotion dataset with remotely sensed physiological signals via video and radar
+# RemoPhysEmo: A Multimodal Emotion Dataset with Remotely Sensed Physiological Signals via Video and Radar
 
 This repository contains the official implementation and dataset introduction for the paper **"RemoPhysEmo: A multimodal emotion dataset with remotely sensed physiological signals via video and radar"**.
 
 ## 📖 Introduction
 
-Emotion recognition is a fundamental task in affective computing. Existing multimodal emotion research concerns more of non-physiological modalities, such as video, audio, and text, whereas physiological signals remain insufficiently explored. 
+Emotion recognition is a fundamental task in affective computing. Existing multimodal emotion research concerns more of non-physiological modalities, such as video, audio, and text, whereas physiological signals remain insufficiently explored.
 
-To bridge this gap, we introduce **RemoPhysEmo**, a new multimodal emotion dataset with remotely sensed physiological signals consisting of photoplethysmography (PPG), millimeter-wave radar, and facial videos. 
+To bridge this gap, we introduce **RemoPhysEmo**, a new multimodal emotion dataset with remotely sensed physiological signals consisting of photoplethysmography (PPG), millimeter-wave radar, and facial videos.
 
 ## ✨ Key Features
 
@@ -20,22 +20,61 @@ Our dataset and baselines support the following two main tasks:
 1. **Task 1: Multimodal rPPG Measurement**
 2. **Task 2: Multimodal Emotion Recognition**
 
-## 📂 Repository Structure
+## 📊 Sample Visualization
 
-- `data/` : Contains scripts for data preprocessing.
-- `models/` : Implementations of baseline models (e.g., ContrastPhys+, VitaNet, MER-MFVA, MVP).
-- `scripts/` : Training and evaluation scripts.
+[TODO: add sample images here, e.g., data collection setup, signal visualization, emotion annotation examples]
 
-## 🛠️ Getting Started
+## 📂 Dataset Structure
 
-### 1. Dataset Access
-The pre-processed version of the dataset will be shared online. The data sharing process will be regulated by signing a license agreement. *(Instructions and links for downloading will be updated here).*
+```
+mmdataset/
+├── mmwave/                                # Millimeter-wave radar data
+│   ├── {subject_id}/                      # e.g., 12/
+│   │   ├── {subject_id}_{session}/        # e.g., 12_1/
+│   │   │   ├── {subject_id}_{chunk}.mat   # Radar raw signal
+│   │   │   └── rf_time.npy                # RF timestamp
+│   │   └── ...
+│   └── ...
+│
+├── webcam/                                # RGB webcam video frames
+│   ├── {subject_id}/                      # e.g., 12/
+│   │   ├── {subject_id}_{session}/        # e.g., 12_01/
+│   │   │   ├── 0001.png                   # Video frame
+│   │   │   ├── 0002.png
+│   │   │   └── ...
+│   │   └── ...
+│   └── ...
+│
+├── ppg/                                   # PPG (photoplethysmography) data
+│   ├── {subject_id}/                      # e.g., 12/
+│   │   ├── {subject_id}_{session}.npy     # e.g., 12_1.npy
+│   │   └── ...
+│   └── ...
+│
+├── mmdataset3_30.xlsx                     # Emotion labels
+└── fold.xlsx                              # Data split folds
+```
 
-### 2. Environment Setup
-*(To be updated: Environment dependencies and instructions)*
+**Naming convention:**
+- `{subject_id}` — Subject index (e.g., `12`)
+- `{subject_id}_{session}` — The N-th recording session of a subject (e.g., `12_1` means session 1 of subject 12)
+- Each subject typically contains 8 sessions. All three modalities are temporally synchronized.
 
-### 3. Training and Evaluation
-*(To be updated: Instructions for running baseline models)*
+## 🗂️ Repository Structure
+
+```
+RemoPhysEmo/
+├── data/       # Data preprocessing scripts
+├── models/     # Baseline model implementations (e.g., ContrastPhys+, VitaNet, MER-MFVA, MVP)
+├── scripts/    # Training and evaluation scripts
+└── README.md
+```
+
+## 📥 Dataset Access
+
+The dataset is available for download at: **[TODO: download link]**
+
+The data are password-protected. Please download and sign the [End User License Agreement (EULA)]([TODO: EULA link]) and send it to **[TODO: email address]** to request access.
 
 ## ✏️ Citation
 
@@ -48,3 +87,4 @@ If you find our dataset or code helpful, please cite our paper:
   booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
   year={2026}
 }
+```
