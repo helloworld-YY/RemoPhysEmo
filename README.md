@@ -70,16 +70,16 @@ RemoPhysEmo/
 └── README.md
 ```
 
-## 📋 Label Samples
+## 📋 Samples
 
-**Emotion Labels (mmdataset3_30.xlsx)**
+### Emotion Labels (mmdataset3_30.xlsx)
 
 | subject_id | clip_id | clip_name | clip_group | emotion | valence | arousal | dominance | selected_emotions | happy | sad | surprise | fear | anger | disgust | calm | confused |
 |:----------:|:-------:|:---------:|:----------:|:-------:|:-------:|:-------:|:---------:|:-----------------:|:-----:|:---:|:--------:|:----:|:-----:|:-------:|:----:|:--------:|
 | 12 | 1 | 12_01 | neutral_1 | neutral | 5.0 | 8.0 | 2.0 | calm | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | 12 | 2 | 12_02 | happy_1 | happy | 3.0 | 6.0 | 3.0 | happy | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-**5-Fold Split (fold.xlsx)**
+### 5-Fold Split (fold.xlsx)
 
 | subject_id | is_complete | fold_id | fold_0 | fold_1 | fold_2 | fold_3 | fold_4 |
 |:----------:|:-----------:|:-------:|:------:|:------:|:------:|:------:|:------:|
