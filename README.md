@@ -8,6 +8,16 @@ Emotion recognition is a fundamental task in affective computing. Existing multi
 
 To bridge this gap, we introduce **RemoPhysEmo**, a new multimodal emotion dataset with remotely sensed physiological signals consisting of photoplethysmography (PPG), millimeter-wave radar, and facial videos.
 
+<p align="center">
+  <img src="assets/1.png" width="80%">
+</p>
+<p align="center"><b>Figure 1:</b> Overview of the RemoPhysEmo multimodal dataset.</p>
+
+<p align="center">
+  <img src="assets/data pipeline.png" width="80%">
+</p>
+<p align="center"><b>Figure 2:</b> The pipeline of RemoPhysEmo dataset construction.</p>
+
 ## ✨ Key Features
 
 * **Multimodal Sensing**: Synchronized facial videos and millimeter-wave radar data collected during emotion elicitation tasks.
@@ -19,10 +29,6 @@ To bridge this gap, we introduce **RemoPhysEmo**, a new multimodal emotion datas
 Our dataset and baselines support the following two main tasks:
 1. **Task 1: Multimodal rPPG Measurement**
 2. **Task 2: Multimodal Emotion Recognition**
-
-## 📊 Sample Visualization
-
-[TODO: add sample images here, e.g., data collection setup, signal visualization, emotion annotation examples]
 
 ## 📂 Dataset Structure
 
@@ -71,6 +77,13 @@ RemoPhysEmo/
 ```
 
 ## 📋 Samples
+
+### rPPG Signal Samples
+
+<p align="center">
+  <img src="assets/rPPG sample v1.png" width="80%">
+</p>
+<p align="center"><b>Figure 3:</b> Samples of rPPG signals. Sample A shows one case where the video modal was disrupted while the radar modal was unaffected. Sample B shows the opposite. The two samples demonstrate the potential advantages of video and radar fusion.</p>
 
 ### Emotion Labels (mmdataset3_30.xlsx)
 
