@@ -18,6 +18,11 @@ To bridge this gap, we introduce **RemoPhysEmo**, a new multimodal emotion datas
 </p>
 <p align="center"><b>Figure 2:</b> The pipeline of RemoPhysEmo dataset construction.</p>
 
+<p align="center">
+  <img src="assets/label details v2.png" width="60%">
+</p>
+<p align="center"><b>Figure 3:</b> (a). Distribution of clip-level categorical emotion labels. (b). Distribution of fine-grained segment-level emotion intensity labels. (c). Distribution of the heart rate values.</p>
+
 ## ✨ Key Features
 
 * **Multimodal Sensing**: Synchronized facial videos and millimeter-wave radar data collected during emotion elicitation tasks.
@@ -83,7 +88,7 @@ RemoPhysEmo/
 <p align="center">
   <img src="assets/rPPG sample v1.png" width="80%">
 </p>
-<p align="center"><b>Figure 3:</b> Samples of rPPG signals. Sample A shows one case where the video modal was disrupted while the radar modal was unaffected. Sample B shows the opposite. The two samples demonstrate the potential advantages of video and radar fusion.</p>
+<p align="center"><b>Figure 4:</b> Samples of rPPG signals. Sample A shows one case where the video modal was disrupted while the radar modal was unaffected. Sample B shows the opposite. The two samples demonstrate the potential advantages of video and radar fusion.</p>
 
 ### Emotion Labels (mmdataset3_30.xlsx)
 
