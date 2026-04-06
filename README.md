@@ -83,7 +83,7 @@ RemoPhysEmo/
 
 ## 📋 Samples
 
-### rPPG Signal Samples
+### Signal Samples
 
 <p align="center">
   <img src="assets/rPPG sample v1.png" width="80%">
