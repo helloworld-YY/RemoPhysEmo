@@ -173,7 +173,7 @@ Our dataset and baselines support the following two main tasks:
 
 | Facial Video | PPG Signal |
 |:---:|:---:|
-| *coming soon* | ![ppg](figure/sync_117_01.png) |
+| *coming soon* | <img src="figure/sync_117_01.png" width="300"> |
 
 ---
 
@@ -181,7 +181,7 @@ Our dataset and baselines support the following two main tasks:
 
 | Facial Video | PPG Signal |
 |:---:|:---:|
-| *coming soon* | ![ppg](figure/sync_120_08.png) |
+| *coming soon* | <img src="figure/sync_120_08.png" width="300"> |
 
 ---
 
