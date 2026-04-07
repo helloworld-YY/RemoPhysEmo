@@ -2,6 +2,8 @@
 
 This repository contains the official implementation and dataset introduction for the paper **"RemoPhysEmo: A multimodal emotion dataset with remotely sensed physiological signals via video and radar"**.
 
+Other relevant research can be found in our [group homepage](https://xiaobaili-uhai.github.io/).
+
 ## 📖 Dataset Description
 We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing synchronized facial videos and millimeter-wave radar data collected during emotion elicitation tasks. The dataset can be used for two tasks: 1) remote-sensor-based **multimodal rPPG measurement**; and 2) remote-sensor-based **multimodal emotion recognition**.
 
