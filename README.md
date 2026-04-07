@@ -169,7 +169,11 @@ Our dataset and baselines support the following two main tasks:
 
 ---
 
-#### Sub 117 — Clip 01 | **Neutral** `[0,0,0,0,0,0,1,0]` | Valence: 4, Arousal: 9
+#### Sub 117 — Clip 01
+
+| Subject | Clip | Emotion | Multi-hot | Valence | Arousal |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 117 | 01 | **Neutral** | `[0,0,0,0,0,0,1,0]` | 4 | 9 |
 
 | Facial Video | PPG Signal |
 |:---:|:---:|
@@ -177,7 +181,11 @@ Our dataset and baselines support the following two main tasks:
 
 ---
 
-#### Sub 120 — Clip 08 | **Fear** `[0,0,1,1,1,0,0,0]` | Valence: 7, Arousal: 3
+#### Sub 120 — Clip 08
+
+| Subject | Clip | Emotion | Multi-hot | Valence | Arousal |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 120 | 08 | **Fear** | `[0,0,1,1,1,0,0,0]` | 7 | 3 |
 
 | Facial Video | PPG Signal |
 |:---:|:---:|
