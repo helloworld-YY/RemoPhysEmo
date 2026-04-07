@@ -43,7 +43,8 @@ mmdataset/
 │   │   └── ...
 │   └── ...
 │
-├── mmdataset3_30.xlsx                     # Emotion labels
+├── mmdataset.xlsx                         # clip_level Emotion labels
+├── seg_annotation.csv                     # segment_level Emotion labels
 └── fold.xlsx                              # Data split folds
 ```
 
