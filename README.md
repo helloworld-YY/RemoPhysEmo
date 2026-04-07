@@ -163,6 +163,28 @@ Our dataset and baselines support the following two main tasks:
 </p>
 <p align="center"><b>Figure 4:</b> Samples of rPPG signals. Sample A shows one case where the video modal was disrupted while the radar modal was unaffected. Sample B shows the opposite. The two samples demonstrate the potential advantages of video and radar fusion.</p>
 
+### Dataset Sample Explorer
+
+**Multi-hot order**: `[happy, sad, surprise, fear, anger, disgust, calm, confused]`
+
+---
+
+#### Sub 117 — Clip 01 | **Neutral** `[0,0,0,0,0,0,1,0]` | Valence: 4, Arousal: 9
+
+| Facial Video | Synchronized Signals (30s, z-scored) |
+|:---:|:---:|
+| *coming soon* | ![sync](figure/sync_117_01.png) |
+
+---
+
+#### Sub 120 — Clip 08 | **Fear** `[0,0,1,1,1,0,0,0]` | Valence: 7, Arousal: 3
+
+| Facial Video | Synchronized Signals (30s, z-scored) |
+|:---:|:---:|
+| *coming soon* | ![sync](figure/sync_120_08.png) |
+
+---
+
 ### Emotion Labels (mmdataset3_30.xlsx)
 
 | subject_id | clip_id | clip_name | clip_group | emotion | valence | arousal | dominance | selected_emotions | happy | sad | surprise | fear | anger | disgust | calm | confused |
