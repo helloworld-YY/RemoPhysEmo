@@ -15,6 +15,19 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 
 ### 📋 Dataset Preview
 
+## Dataset Construction
+
+### Construction Pipeline
+<p align="center">
+  <img src="assets/data pipeline.png" width="80%">
+</p>
+<p align="center"><b>Figure 2:</b> The pipeline of RemoPhysEmo dataset construction.</p>
+
+### Collection Procedure
+<p align="center">
+  <img src="figure/ExampleVideo_gif.gif" width="80%">
+
+  
 
 ## 📂 Dataset Structure
 
@@ -63,18 +76,7 @@ RemoPhysEmo/
 └── README.md
 ```
 
-## Dataset Construction
 
-### Construction Pipeline
-<p align="center">
-  <img src="assets/data pipeline.png" width="80%">
-</p>
-<p align="center"><b>Figure 2:</b> The pipeline of RemoPhysEmo dataset construction.</p>
-
-### Collection Procedure
-<p align="center">
-  <img src="figure/ExampleVideo_gif.gif" width="80%">
-  
 
 ## 📥 Dataset Access
 
