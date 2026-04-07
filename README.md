@@ -169,8 +169,6 @@ Our dataset and baselines support the following two main tasks:
 
 ---
 
-#### Sub 117 — Clip 01
-
 | Subject | Clip | Emotion | Multi-hot | Valence | Arousal |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 117 | 01 | **Neutral** | `[0,0,0,0,0,0,1,0]` | 4 | 9 |
@@ -180,8 +178,6 @@ Our dataset and baselines support the following two main tasks:
 | *coming soon* | ![ppg](figure/sync_117_01.png) |
 
 ---
-
-#### Sub 120 — Clip 08
 
 | Subject | Clip | Emotion | Multi-hot | Valence | Arousal |
 |:---:|:---:|:---:|:---:|:---:|:---:|
