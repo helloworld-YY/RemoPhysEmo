@@ -5,40 +5,10 @@ This repository contains the official implementation and dataset introduction fo
 ## 📖 Dataset Description
 We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing synchronized facial videos and millimeter-wave radar data collected during emotion elicitation tasks. The dataset can be used for two tasks: 1) remote-sensor-based **multimodal rPPG measurement**; and 2) remote-sensor-based **multimodal emotion recognition**.
 
-## 📖 Introduction
-
-Emotion recognition is a fundamental task in affective computing. Existing multimodal emotion research concerns more of non-physiological modalities, such as video, audio, and text, whereas physiological signals remain insufficiently explored.
 <p align="center">
   <img src="assets/1.png" width="80%">
 </p>
 <p align="center"><b>Figure 1:</b> Overview of the RemoPhysEmo multimodal dataset.</p>
-To bridge this gap, we introduce **RemoPhysEmo**, a new multimodal emotion dataset with remotely sensed physiological signals consisting of photoplethysmography (PPG), millimeter-wave radar, and facial videos.
-
-
-<p align="center">
-  <img src="figure/ExampleVideo_gif.gif" width="80%">
-
-<p align="center">
-  <img src="assets/data pipeline.png" width="80%">
-</p>
-<p align="center"><b>Figure 2:</b> The pipeline of RemoPhysEmo dataset construction.</p>
-
-<p align="center">
-  <img src="assets/label details v2.png" width="60%">
-</p>
-<p align="center"><b>Figure 3:</b> (a). Distribution of clip-level categorical emotion labels. (b). Distribution of fine-grained segment-level emotion intensity labels. (c). Distribution of the heart rate values.</p>
-
-## ✨ Key Features
-
-* **Multimodal Sensing**: Synchronized facial videos and millimeter-wave radar data collected during emotion elicitation tasks.
-* **Large-Scale**: Contains 149 subjects' multimodal data.
-* **Rich Annotations**: Provides clip-level categorical emotion labels, dimensional valence-arousal scores, and fine-grained emotion intensity fluctuation scores for every 3-second segment.
-
-## 🚀 Tasks Supported
-
-Our dataset and baselines support the following two main tasks:
-1. **Task 1: Multimodal rPPG Measurement**
-2. **Task 2: Multimodal Emotion Recognition**
 
 ## 📂 Dataset Structure
 
@@ -85,6 +55,45 @@ RemoPhysEmo/
 ├── scripts/    # Training and evaluation scripts
 └── README.md
 ```
+
+## Dataset Construction
+
+### Construction Pipeline
+<p align="center">
+  <img src="assets/data pipeline.png" width="80%">
+</p>
+<p align="center"><b>Figure 2:</b> The pipeline of RemoPhysEmo dataset construction.</p>
+
+### Collection Procedure
+<p align="center">
+  <img src="figure/ExampleVideo_gif.gif" width="80%">
+  
+## 📖 Introduction
+
+
+
+
+
+
+
+<p align="center">
+  <img src="assets/label details v2.png" width="60%">
+</p>
+<p align="center"><b>Figure 3:</b> (a). Distribution of clip-level categorical emotion labels. (b). Distribution of fine-grained segment-level emotion intensity labels. (c). Distribution of the heart rate values.</p>
+
+## ✨ Key Features
+
+* **Multimodal Sensing**: Synchronized facial videos and millimeter-wave radar data collected during emotion elicitation tasks.
+* **Large-Scale**: Contains 149 subjects' multimodal data.
+* **Rich Annotations**: Provides clip-level categorical emotion labels, dimensional valence-arousal scores, and fine-grained emotion intensity fluctuation scores for every 3-second segment.
+
+## 🚀 Tasks Supported
+
+Our dataset and baselines support the following two main tasks:
+1. **Task 1: Multimodal rPPG Measurement**
+2. **Task 2: Multimodal Emotion Recognition**
+
+
 
 ## 📋 Samples
 
