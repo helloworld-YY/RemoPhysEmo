@@ -13,6 +13,9 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 </p>
 <p align="center"><b>Figure 1:</b> Overview of the RemoPhysEmo multimodal dataset.</p>
 
+### 📋 Dataset Preview
+
+
 ## 📂 Dataset Structure
 
 ```
