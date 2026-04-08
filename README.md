@@ -32,8 +32,6 @@ We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You c
 > Summary of the emotion and V-A values for each clip.
 > **Multi-hot order**: `[happy, sad, surprise, fear, anger, disgust, calm, confused]`.
 
-
-
 | Subject | Clip | Video categories | Multi-hot | Valence | Arousal |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 120 | 01 | **Neutral** | `[0,0,0,0,0,0,1,1]` | 5 | 5 |
@@ -48,7 +46,9 @@ We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You c
 
 #### 🎞️ segment-level annotations
 > Intensity of segment-level emotion annotations.
-> **Intensity Score**: `[0, 1, 2]` indicates `[low, mild, strong]`
+> **Intensity Score**: `[0, 1, 2]` indicates `[low, mild, strong]`.
+
+
 | Subject | Clip | Segment_idx | Intensity |
 |:---:|:---:|:---:|:---:|
 |...|..|..|..|
