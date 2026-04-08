@@ -154,14 +154,6 @@ Our dataset and baselines support the following two main tasks:
 
 
 
-## 📋 Samples
-
-### Signal Samples
-
-<p align="center">
-  <img src="assets/rPPG sample v1.png" width="80%">
-</p>
-<p align="center"><b>Figure 4:</b> Samples of rPPG signals. Sample A shows one case where the video modal was disrupted while the radar modal was unaffected. Sample B shows the opposite. The two samples demonstrate the potential advantages of video and radar fusion.</p>
 
 ### Data Samples
 
