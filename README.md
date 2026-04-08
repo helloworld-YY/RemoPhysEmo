@@ -38,7 +38,7 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 
 | Facial Video | PPG Signal |
 |:---:|:---:|
-| 1.png, 2.png, 3.pmg, 4.png, ... (see subset) | ![ppg](figure/sync_117_01.png) |
+| 1.png, 2.png, 3.pmg, 4.png, ... , (**see subset**) | ![ppg](figure/sync_117_01.png) |
 
 #### 🎞️ segment-level annotations
 > Intensity of segment-level emotion annotations.
