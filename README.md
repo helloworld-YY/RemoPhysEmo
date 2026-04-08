@@ -21,20 +21,23 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 
 ### 📋 Dataset Preview
 
-### Data Samples
+### Data Samples (subject_#117 for example)
 
 **Multi-hot order**: `[happy, sad, surprise, fear, anger, disgust, calm, confused]`
 
 ---
 
-#### 🎞️ Clip-level (Overall)
-> Summary of the emotion and V-A values for each session.
+#### 🎞️ Clip-level annotations
+> Summary of the emotion and V-A values for each clip.
 
 | Subject | Clip | Emotion | Multi-hot | Valence | Arousal |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 117 | 01 | **Neutral** | `[0,0,0,0,0,0,1,0]` | 4 | 9 |
+| 117 | 02 | **Happy** | `[1,0,0,0,0,0,1,0]` | 2 | 4 |
+| 117 | 03 | **Disgust** | `[0,0,1,0,0,1,0,0]` | 8 | 3 |
+....
 
-#### 🎞️ segment-level (Overall)
+#### 🎞️ segment-level annotations
 > Summary of the emotion and V-A values for each session.
 
 | Subject | Clip | Segment_idx | Intensity |
