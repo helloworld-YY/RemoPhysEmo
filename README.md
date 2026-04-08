@@ -46,7 +46,7 @@ We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You c
 
 #### 🎞️ segment-level annotations
 > Intensity of segment-level emotion annotations.
-
+> **Intensity Score**: `[0, 1, 2]` indicates `[low, mild, strong]`
 | Subject | Clip | Segment_idx | Intensity |
 |:---:|:---:|:---:|:---:|
 |...|..|..|..|
