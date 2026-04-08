@@ -134,7 +134,7 @@ RemoPhysEmo/
 
 The dataset is available for download at: **[TODO: download link]**
 
-The data are password-protected. Please download and sign the [End User License Agreement (EULA)]([TODO: EULA link]) and send it to **[TODO: email address]** to request access.
+The data are password-protected. Please download and sign the [license]([./figure/Data sharing License Agreement.pdf]) and send it to **[xiaobai.li@zju.edu.cn]** to request access.
 
 ## 📈 Benchmark Results
 
