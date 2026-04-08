@@ -36,14 +36,14 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 | 120 | 02 | **Happy** | `[1,0,0,0,0,0,0,0]` | 4 | 4 |
 | 120 | 03 | **Disgust** | `[0,1,0,0,0,0,0,0]` | 7 | 3 |
 | 120 | 04 | **Fear** | `[0,0,1,1,1,0,0,0]` | 8 | 2 |
-....
+|..|..|..|..|..|..|
 
 #### 🎞️ segment-level annotations
 > Summary of the emotion and V-A values for each session.
 
 | Subject | Clip | Segment_idx | Intensity |
 |:---:|:---:|:---:|:---:|
-|...|
+|...|..|..|..|
 | 120 | 02 | 3 | 0 |
 | 120 | 02 | 4 | 0 |
 | 120 | 02 | 5 | 1 |
@@ -51,7 +51,7 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 | 120 | 02 | 7 | 1 |
 | 120 | 02 | 8 | 2 |
 | 120 | 02 | 9 | 2 |
-|...|
+|...|..|..|..|
 
 | Facial Video | PPG Signal |
 |:---:|:---:|
