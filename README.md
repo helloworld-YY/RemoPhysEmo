@@ -30,7 +30,7 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 #### 🎞️ Clip-level annotations
 > Summary of the emotion and V-A values for each clip.
 
-| Subject | Clip | Emotion | Multi-hot | Valence | Arousal |
+| Subject | Clip | Video categories | Multi-hot | Valence | Arousal |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 120 | 01 | **Neutral** | `[0,0,0,0,0,0,1,1]` | 5 | 5 |
 | 120 | 02 | **Happy** | `[1,0,0,0,0,0,0,0]` | 4 | 4 |
@@ -39,7 +39,7 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 |..|..|..|..|..|..|
 
 #### 🎞️ segment-level annotations
-> Summary of the emotion and V-A values for each session.
+> Intensity of segment-level emotion annotations.
 
 | Subject | Clip | Segment_idx | Intensity |
 |:---:|:---:|:---:|:---:|
