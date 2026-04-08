@@ -21,7 +21,7 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 
 ### 📋 Dataset Preview
 
-### Data Samples (subject_#117 for example)
+### Data Samples (subject_#120 for example)
 
 **Multi-hot order**: `[happy, sad, surprise, fear, anger, disgust, calm, confused]`
 
@@ -32,9 +32,10 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 
 | Subject | Clip | Emotion | Multi-hot | Valence | Arousal |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 117 | 01 | **Neutral** | `[0,0,0,0,0,0,1,0]` | 4 | 9 |
-| 117 | 02 | **Happy** | `[1,0,0,0,0,0,1,0]` | 2 | 4 |
-| 117 | 03 | **Disgust** | `[0,0,1,0,0,1,0,0]` | 8 | 3 |
+| 120 | 01 | **Neutral** | `[0,0,0,0,0,0,1,1]` | 5 | 5 |
+| 120 | 02 | **Happy** | `[1,0,0,0,0,0,0,0]` | 4 | 4 |
+| 120 | 03 | **Disgust** | `[0,1,0,0,0,0,0,0]` | 7 | 3 |
+| 120 | 04 | **Fear** | `[0,0,1,1,1,0,0,0]` | 8 | 2 |
 ....
 
 #### 🎞️ segment-level annotations
@@ -42,11 +43,14 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 
 | Subject | Clip | Segment_idx | Intensity |
 |:---:|:---:|:---:|:---:|
-| 117 | 01 | 0 | 0 |
-| 117 | 01 | 1 | 0 |
-| 117 | 01 | 2 | 1 |
-| 117 | 01 | 3 | 0 |
-| 117 | 01 | 4 | 1 |
+|...|
+| 120 | 02 | 3 | 0 |
+| 120 | 02 | 4 | 0 |
+| 120 | 02 | 5 | 1 |
+| 120 | 02 | 6 | 1 |
+| 120 | 02 | 7 | 1 |
+| 120 | 02 | 8 | 2 |
+| 120 | 02 | 9 | 2 |
 |...|
 
 | Facial Video | PPG Signal |
