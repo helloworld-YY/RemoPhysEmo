@@ -80,7 +80,8 @@ We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You c
 ### Collection Procedure
 <p align="center">
   <img src="figure/ExampleVideo_gif.gif" width="80%">
-
+</p>
+<p align="center"><b>Figure 2:</b> Demo of our data collection procedure.</p>
   
 
 ## 📂 Dataset Structure
