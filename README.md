@@ -36,6 +36,10 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 | 120 | 04 | **Fear** | `[0,0,1,1,1,0,0,0]` | 8 | 2 |
 |..|..|..|..|..|..|
 
+| Facial Video | PPG Signal |
+|:---:|:---:|
+| 1.png, 2.png, ... | ![ppg](figure/sync_117_01.png) |
+
 #### 🎞️ segment-level annotations
 > Intensity of segment-level emotion annotations.
 
@@ -51,9 +55,7 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 | 120 | 02 | 9 | 2 |
 |...|..|..|..|
 
-| Facial Video | PPG Signal |
-|:---:|:---:|
-| *coming soon* | ![ppg](figure/sync_117_01.png) |
+
 
 ---
 
