@@ -15,7 +15,7 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 
 ### 📋 Dataset Preview
 
-## Dataset Construction
+## 🚀 Dataset Construction
 
 ### Construction Pipeline
 <p align="center">
@@ -126,32 +126,12 @@ V: Video, P: Physiological. † indicates action units as visual input. "MVP-rem
 | fold4 | 1.660 | 2.182 | 0.562 | 1.661 | 2.194 | 0.564 |
 | **AVG** | **1.557** | **2.060** | **0.571** | **1.564** | **2.068** | **0.573** |
 
-## ✏️ Citation
-
-If you find our dataset or code helpful, please cite our paper:
-
-```bibtex
-@inproceedings{anonymous2026remophysemo,
-  title={RemoPhysEmo: A multimodal emotion dataset with remotely sensed physiological signals via video and radar},
-  author={Anonymous Author(s)},
-  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
-  year={2026}
-}
-```
-
 
 ## ✨ Key Features
 
 * **Multimodal Sensing**: Synchronized facial videos and millimeter-wave radar data collected during emotion elicitation tasks.
 * **Large-Scale**: Contains 149 subjects' multimodal data.
 * **Rich Annotations**: Provides clip-level categorical emotion labels, dimensional valence-arousal scores, and fine-grained emotion intensity fluctuation scores for every 3-second segment.
-
-## 🚀 Tasks Supported
-
-Our dataset and baselines support the following two main tasks:
-1. **Task 1: Multimodal rPPG Measurement**
-2. **Task 2: Multimodal Emotion Recognition**
-
 
 
 
@@ -194,4 +174,15 @@ Our dataset and baselines support the following two main tasks:
 |:----------:|:-----------:|:-------:|:------:|:------:|:------:|:------:|:------:|
 | 12 | 1 | 1 | 0 | 1 | 0 | 0 | 0 |
 
+## ✏️ Citation
 
+If you find our dataset or code helpful, please cite our paper:
+
+```bibtex
+@inproceedings{anonymous2026remophysemo,
+  title={RemoPhysEmo: A multimodal emotion dataset with remotely sensed physiological signals via video and radar},
+  author={Anonymous Author(s)},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  year={2026}
+}
+```
