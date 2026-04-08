@@ -13,6 +13,12 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 </p>
 <p align="center"><b>Figure 1:</b> Overview of the RemoPhysEmo multimodal dataset.</p>
 
+## ✨ Key Features
+
+* **Multimodal Sensing**: Synchronized facial videos and millimeter-wave radar data collected during emotion elicitation tasks.
+* **Large-Scale**: Contains 149 subjects' multimodal data.
+* **Rich Annotations**: Provides clip-level categorical emotion labels, dimensional valence-arousal scores, and fine-grained emotion intensity fluctuation scores for every 3-second segment.
+
 ### 📋 Dataset Preview
 
 ## 🚀 Dataset Construction
@@ -127,14 +133,6 @@ V: Video, P: Physiological. † indicates action units as visual input. "MVP-rem
 | **AVG** | **1.557** | **2.060** | **0.571** | **1.564** | **2.068** | **0.573** |
 
 
-## ✨ Key Features
-
-* **Multimodal Sensing**: Synchronized facial videos and millimeter-wave radar data collected during emotion elicitation tasks.
-* **Large-Scale**: Contains 149 subjects' multimodal data.
-* **Rich Annotations**: Provides clip-level categorical emotion labels, dimensional valence-arousal scores, and fine-grained emotion intensity fluctuation scores for every 3-second segment.
-
-
-
 ### Data Samples
 
 **Multi-hot order**: `[happy, sad, surprise, fear, anger, disgust, calm, confused]`
@@ -173,6 +171,9 @@ V: Video, P: Physiological. † indicates action units as visual input. "MVP-rem
 | subject_id | is_complete | fold_id | fold_0 | fold_1 | fold_2 | fold_3 | fold_4 |
 |:----------:|:-----------:|:-------:|:------:|:------:|:------:|:------:|:------:|
 | 12 | 1 | 1 | 0 | 1 | 0 | 0 | 0 |
+
+
+
 
 ## ✏️ Citation
 
