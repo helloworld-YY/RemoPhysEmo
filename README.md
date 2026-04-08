@@ -19,9 +19,7 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 * **Large-Scale**: Contains 149 subjects' multimodal data.
 * **Rich Annotations**: Provides clip-level categorical emotion labels, dimensional valence-arousal scores, and fine-grained emotion intensity fluctuation scores for every 3-second segment.
 
-### 📋 Dataset Preview
-
-### Data Samples (subject_#120 for example)
+### 📋 Dataset Preview (subject_#120 for example)
 
 **Multi-hot order**: `[happy, sad, surprise, fear, anger, disgust, calm, confused]`
 
