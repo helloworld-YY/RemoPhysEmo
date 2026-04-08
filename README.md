@@ -31,6 +31,15 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 117 | 01 | **Neutral** | `[0,0,0,0,0,0,1,0]` | 4 | 9 |
 
+| Subject | Clip | Segment_idx | Intensity |
+|:---:|:---:|:---:|:---:|
+| 117 | 01 | 0 | 0 |
+| 117 | 01 | 1 | 0 |
+| 117 | 01 | 2 | 1 |
+| 117 | 01 | 3 | 0 |
+| 117 | 01 | 4 | 1 |
+|...|
+
 | Facial Video | PPG Signal |
 |:---:|:---:|
 | *coming soon* | ![ppg](figure/sync_117_01.png) |
