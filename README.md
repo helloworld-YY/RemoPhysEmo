@@ -30,7 +30,9 @@ We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You c
 
 #### 🎞️ Clip-level annotations
 > Summary of the emotion and V-A values for each clip.
-> **Multi-hot order**: `[happy, sad, surprise, fear, anger, disgust, calm, confused]`
+> **Multi-hot order**: `[happy, sad, surprise, fear, anger, disgust, calm, confused]`.
+
+
 
 | Subject | Clip | Video categories | Multi-hot | Valence | Arousal |
 |:---:|:---:|:---:|:---:|:---:|:---:|
