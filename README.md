@@ -25,6 +25,8 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 
 ### 📋 Dataset Preview (subject_#120 for example)
 
+**Quick Start (Sample Subset)**
+We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You can download this sample [here](填写你的下载链接).
 
 #### 🎞️ Clip-level annotations
 > Summary of the emotion and V-A values for each clip.
@@ -56,8 +58,6 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 | 120 | 02 | 8 | 2 |
 | 120 | 02 | 9 | 2 |
 |...|..|..|..|
-
-
 
 
 
