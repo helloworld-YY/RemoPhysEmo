@@ -17,7 +17,7 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 
 * **Multimodal Sensing**: Synchronized facial videos and millimeter-wave radar data collected during emotion elicitation tasks.
 * **Large-Scale**: Contains 149 subjects' multimodal data.
-* **Rich Annotations**: Provides clip-level categorical emotion labels, dimensional valence-arousal scores, and fine-grained emotion intensity fluctuation scores for every 3-second segment.
+* **Rich Annotations**: Provides clip-level categorical emotion labels, dimensional valence-arousal scores, and fine-grained emotion intensity fluctuation scores for every 4-second segment.
 
 
 ---
@@ -81,7 +81,7 @@ We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You c
 <p align="center">
   <img src="figure/ExampleVideo_gif.gif" width="80%">
 </p>
-<p align="center"><b>Figure 2:</b> Demo of our data collection procedure.</p>
+<p align="center"><b>Figure 3:</b> Demo of our data collection procedure.</p>
   
 
 ## 📂 Dataset Structure
