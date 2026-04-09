@@ -42,7 +42,7 @@ We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You c
 
 | Facial Video | PPG Signal |
 |:---:|:---:|
-| 1.png, 2.png, 3.png, 4.png, ... , (**see subset**) | ![ppg](figure/sync_117_01.png) |
+| 1.png, 2.png, 3.png, 4.png, ... , (**see subset**) | ![ppg](figure/sync_120_08.png) |
 
 #### 🎞️ segment-level annotations
 > Intensity of segment-level emotion annotations.
