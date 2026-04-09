@@ -96,7 +96,7 @@ We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You c
 mmdataset/
 ├── mmwave/                                # Millimeter-wave radar data
 │   ├── {subject_id}/                      # e.g., 12/
-│   │   ├── {subject_id}_{session}/        # e.g., 12_1/
+│   │   ├── {subject_id}_{clip_id}/        # e.g., 12_1/
 │   │   │   ├── {subject_id}_{chunk}.mat   # Radar raw signal
 │   │   │   └── rf_time.npy                # RF timestamp
 │   │   └── ...
@@ -104,7 +104,7 @@ mmdataset/
 │
 ├── webcam/                                # RGB webcam video frames
 │   ├── {subject_id}/                      # e.g., 12/
-│   │   ├── {subject_id}_{session}/        # e.g., 12_01/
+│   │   ├── {subject_id}_{clip_id}/        # e.g., 12_01/
 │   │   │   ├── 0001.png                   # Video frame
 │   │   │   ├── 0002.png
 │   │   │   └── ...
@@ -113,7 +113,7 @@ mmdataset/
 │
 ├── ppg/                                   # PPG (photoplethysmography) data
 │   ├── {subject_id}/                      # e.g., 12/
-│   │   ├── {subject_id}_{session}.npy     # e.g., 12_1.npy
+│   │   ├── {subject_id}_{clip_id}.npy     # e.g., 12_1.npy
 │   │   └── ...
 │   └── ...
 │
@@ -124,7 +124,7 @@ mmdataset/
 
 **Naming convention:**
 - `{subject_id}` — Subject index (e.g., `12`)
-- `{subject_id}_{session}` — The N-th recording session of a subject (e.g., `12_1` means session 1 of subject 12)
+- `{subject_id}_{clip_id}` — The N-th recording session of a subject (e.g., `12_1` means session 1 of subject 12)
 - Each subject typically contains 8 sessions. All three modalities are temporally synchronized.
 
 ## 🗂️ Repository Structure
