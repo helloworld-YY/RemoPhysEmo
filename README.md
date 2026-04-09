@@ -26,7 +26,15 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 ### 📋 Dataset Preview (subject_#120 for example)
 
 🚀 **Quick Start (Sample Subset)**
-We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You can download this sample [here](https://pan.baidu.com/s/1CTwbEvbO72qt4HCeNgGhtg). **password: n7hf**
+We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You can download this sample [here](https://pan.baidu.com/s/16F3jqEYa6c6kIe6vZEqJhw?pwd=pab4). **password: pab4**
+
+## 📥 Dataset Access
+
+The dataset is available for download at: **[here](https://pan.baidu.com/s/1XELo15AeWJqdufawnFyuKg)**
+
+The data are password-protected. Please download and sign the [license](figure/Data_sharing_License_Agreement.pdf) and send it to **[xiaobai.li@zju.edu.cn]** to request access.
+
+---
 
 #### 🎞️ Clip-level annotations
 > Summary of the emotion and V-A values for each clip.
@@ -181,11 +189,6 @@ V: Video, P: Physiological. † indicates action units as visual input. "MVP-rem
 | **AVG** | **1.557** | **2.060** | **0.571** | **1.564** | **2.068** | **0.573** |
 
 
-## 📥 Dataset Access
-
-The dataset is available for download at: **[here](https://pan.baidu.com/s/1XELo15AeWJqdufawnFyuKg)**
-
-The data are password-protected. Please download and sign the [license](figure/Data_sharing_License_Agreement.pdf) and send it to **[xiaobai.li@zju.edu.cn]** to request access.
 
 
 ## ✏️ Citation
