@@ -25,7 +25,7 @@ We propose **RemoPhysEmo**, a large-scale multimodal emotion dataset containing 
 
 ### 📋 Dataset Preview (subject_#120 for example)
 
-**Quick Start (Sample Subset)**
+🚀 **Quick Start (Sample Subset)**
 We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You can download this sample [here](https://pan.baidu.com/s/1CTwbEvbO72qt4HCeNgGhtg). **password: n7hf**
 
 #### 🎞️ Clip-level annotations
@@ -63,7 +63,7 @@ We provide an open-access subset featuring **Subject_id: 117, 120, 122,**. You c
 
 
 
-### 5-Fold Split (fold.xlsx)
+### 🔀 5-Fold Split (fold.xlsx)
 
 | subject_id | is_complete | fold_id | fold_0 | fold_1 | fold_2 | fold_3 | fold_4 |
 |:----------:|:-----------:|:-------:|:------:|:------:|:------:|:------:|:------:|
