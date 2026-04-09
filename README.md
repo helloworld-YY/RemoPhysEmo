@@ -138,12 +138,6 @@ RemoPhysEmo/
 
 
 
-## 📥 Dataset Access
-
-The dataset is available for download at: **[here](https://pan.baidu.com/s/1XELo15AeWJqdufawnFyuKg)**
-
-The data are password-protected. Please download and sign the [license](figure/Data_sharing_License_Agreement.pdf) and send it to **[xiaobai.li@zju.edu.cn]** to request access.
-
 ## 📈 Benchmark Results
 
 **rPPG Measurement**
@@ -187,7 +181,11 @@ V: Video, P: Physiological. † indicates action units as visual input. "MVP-rem
 | **AVG** | **1.557** | **2.060** | **0.571** | **1.564** | **2.068** | **0.573** |
 
 
+## 📥 Dataset Access
 
+The dataset is available for download at: **[here](https://pan.baidu.com/s/1XELo15AeWJqdufawnFyuKg)**
+
+The data are password-protected. Please download and sign the [license](figure/Data_sharing_License_Agreement.pdf) and send it to **[xiaobai.li@zju.edu.cn]** to request access.
 
 
 ## ✏️ Citation
