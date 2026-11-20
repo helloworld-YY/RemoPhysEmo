@@ -3,6 +3,7 @@
 This repository contains the official implementation and dataset introduction for the paper **"RemoPhysEmo: A multimodal emotion dataset with remotely sensed physiological signals via video and radar"**.
 
 > [!NOTE]
+> Thank you for your interest in our dataset! We've received your emails and will reply with the download link as soon as it's ready.
 > Other relevant research can be found in our [group homepage](https://xiaobaili-uhai.github.io/).
 
 ## 📖 Dataset Description
