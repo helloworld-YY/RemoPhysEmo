@@ -196,10 +196,11 @@ The data are password-protected. Please download and sign the [license](figure/D
 If you find our dataset or code helpful, please cite our paper:
 
 ```bibtex
-@inproceedings{anonymous2026remophysemo,
-  title={RemoPhysEmo: A multimodal emotion dataset with remotely sensed physiological signals via video and radar},
-  author={Anonymous Author(s)},
-  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+@inproceedings{gao2026remophysemo,
+  title={RemoPhysEmo: A Multimodal Emotion Dataset with Remotely Sensed Physiological Signals via Video and Radar},
+  author={Gao, Zheng and Li, Xiaobai and Ge, Jieyi and Zou, Hao and Zheng, Jing and Lu, Li and Lin, Feng and Feng, Jingwen and Chen, Ying and Luo, Youchen},
+  booktitle={Proceedings of the 34th ACM International Conference on Multimedia},
+  pages={16746--16752},
   year={2026}
 }
 ```
