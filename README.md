@@ -188,7 +188,7 @@ V: Video, P: Physiological. † indicates action units as visual input. "MVP-rem
 
 Full dataset is available for download.
 
-The data are password-protected. Please download and sign the [license](figure/Data_sharing_License_Agreement.pdf) and send it to **[xiaobai.li@zju.edu.cn]** to request access.
+The data are password-protected. Please download and sign the [license](figure/DataSharingLicense.pdf) and send it to **[xiaobai.li@zju.edu.cn]** to request access.
 
 
 ## ✏️ Citation
